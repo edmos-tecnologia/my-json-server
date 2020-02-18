@@ -1,0 +1,16 @@
+{
+  "pessoas": [
+    { 
+        "id": 1,
+        "primeiroNome": "Eduardo",
+        "sobreNome": "Ramos",
+        "cpf": "05408328716"
+    },
+    { 
+        "id": 2,
+        "primeiroNome": "Debora Evelym",
+        "sobreNome": "Lapa",
+        "cpf": "05408328716"
+    }
+  ]
+}
