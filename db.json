@@ -27,6 +27,14 @@
         "razaoSocial": "MULTI SERVICE SUPERVISAO DE CONTROLE INTERNO ADMINISTRATIVO LTDA",
         "nomeFantasia": "MULTI SERVICE"
       }
+    },
+    {
+      "tipo": "J",
+      "pessoaJuridica": {
+        "cnpj": "05904668000268",
+        "razaoSocial": "W/SAO PAULO - MARKETING E NEGOCIOS LTDA",
+        "nomeFantasia": "W/SAO PAULO"
+      }
     }
   ]
 }
