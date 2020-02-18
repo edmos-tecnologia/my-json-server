@@ -1,19 +1,87 @@
 {
   "pessoas": [
     {
+      "id": 1,
       "tipo": "F",
       "pessoaFisica": {
         "id": 1,
         "primeiroNome": "Eduardo",
         "sobreNome": "Ramos",
         "cpf": "05408328716"
-      }
+      },
+      "enderecos": [
+        {
+          "id": 10001,
+          "tipoEndereco": 1,
+          "enderecoPrincipal": true,
+          "tipoLogradouro": "AVENIDA",
+          "logradouro": "PADRE ANTONIO JOSE DOS SANTOS",
+          "bairro": "BROOKLIN",
+          "numero": 388,
+          "complemento": "APTO 23",
+          "cep": "04563-000",
+          "cidade": "SÃO PAULO",
+          "uf": "SP"
+        },
+        {
+          "id": 10002,
+          "tipoEndereco": 2,
+          "enderecoPrincipal": false,
+          "tipoLogradouro": "AVENIDA",
+          "logradouro": "DR CHUCRI ZAIDAN",
+          "bairro": "VILA CORDEIRO",
+          "numero": 1170,
+          "complemento": "16° ANDAR",
+          "cep": "04794-000",
+          "cidade": "SÃO PAULO",
+          "uf": "SP"
+        }
+      ]
     },
     {
+      "id": 2,
       "tipo": "F",
       "pessoaFisica": {
         "id": 2,
         "primeiroNome": "Debora Evelym",
+        "sobreNome": "Lapa",
+        "cpf": "05408328716"
+      },
+      "enderecos": [
+        {
+          "id": 10101,
+          "tipoEndereco": 1,
+          "enderecoPrincipal": true,
+          "tipoLogradouro": "AVENIDA",
+          "logradouro": "PADRE ANTONIO JOSE DOS SANTOS",
+          "bairro": "BROOKLIN",
+          "numero": 388,
+          "complemento": "APTO 23",
+          "cep": "04563-000",
+          "cidade":"SÃO PAULO",
+          "uf": "SP"
+        },
+        {
+          "id": 10102,
+          "tipoEndereco": 2,
+          "enderecoPrincipal": false,
+          "tipoLogradouro": "AVENIDA",
+          "logradouro": "DR CHUCRI ZAIDAN",
+          "bairro": "VILA CORDEIRO",
+          "numero": 388,
+          "complemento": "16° ANDAR",
+          "cep": "04794-000",
+          "cidade":"SÃO PAULO",
+          "uf": "SP"
+        }
+      ]
+    },
+    {
+      "id": 100,
+      "tipo": "F",
+      "pessoaFisica": {
+      "id": 2,
+        "primeiroNome": "Danielly",
         "sobreNome": "Lapa",
         "cpf": "05408328716"
       }
@@ -21,6 +89,7 @@
   ],
   "empresas": [
     {
+      "id": 1,
       "tipo": "J",
       "pessoaJuridica": {
         "cnpj": "19980092000141",
