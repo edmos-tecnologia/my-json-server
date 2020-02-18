@@ -85,14 +85,32 @@
         "cnpj": "19980092000141",
         "razaoSocial": "MULTI SERVICE SUPERVISAO DE CONTROLE INTERNO ADMINISTRATIVO LTDA",
         "nomeFantasia": "MULTI SERVICE"
-      }
-    },
-    {
-      "tipo": "J",
-      "pessoaJuridica": {
-        "cnpj": "05904668000268",
-        "razaoSocial": "W/SAO PAULO - MARKETING E NEGOCIOS LTDA",
-        "nomeFantasia": "W/SAO PAULO"
+      },
+      "enderecoComercial": {
+        "id": 11002,
+          "tipoEndereco": 1,
+          "enderecoPrincipal": true,
+          "tipoLogradouro": "RUA",
+          "logradouro": "PADRE SABOIA DE MEDEIROS",
+          "bairro": "REALENGO",
+          "numero": 126,
+          "complemento": "",
+          "cep": "21750-430",
+          "cidade":"RIO DE JANEIRO",
+          "uf": "RJ"
+      },
+      "enderecoCobranca": {
+        "id": 11002,
+          "tipoEndereco": 1,
+          "enderecoPrincipal": true,
+          "tipoLogradouro": "RUA",
+          "logradouro": "PADRE SABOIA DE MEDEIROS",
+          "bairro": "REALENGO",
+          "numero": 126,
+          "complemento": "",
+          "cep": "21750-430",
+          "cidade":"RIO DE JANEIRO",
+          "uf": "RJ"
       }
     }
   ]
