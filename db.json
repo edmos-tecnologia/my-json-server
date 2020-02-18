@@ -17,7 +17,9 @@
         "sobreNome": "Lapa",
         "cpf": "05408328716"
       }
-    },
+    }
+  ],
+  "empresas": [
     {
       "tipo": "J",
       "pessoaJuridica": {
