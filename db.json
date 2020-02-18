@@ -75,16 +75,6 @@
           "uf": "SP"
         }
       ]
-    },
-    {
-      "id": 100,
-      "tipo": "F",
-      "pessoaFisica": {
-      "id": 2,
-        "primeiroNome": "Danielly",
-        "sobreNome": "Lapa",
-        "cpf": "05408328716"
-      }
     }
   ],
   "empresas": [
