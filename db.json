@@ -17,14 +17,6 @@
         "sobreNome": "Lapa",
         "cpf": "05408328716"
       }
-    },
-    {
-      "tipo": "J",
-      "pessoaJuridica": {
-        "cnpj": "19980092000141",
-        "razaoSocial": "MULTI SERVICE SUPERVISAO DE CONTROLE INTERNO ADMINISTRATIVO LTDA",
-        "nomeFantasia": "MULTI SERVICE"
-      }
     }
   ]
 }
