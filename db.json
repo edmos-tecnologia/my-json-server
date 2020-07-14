@@ -1,119 +1,158 @@
 {
-  "pessoas": [
-    {
-      "id": 1,
-      "tipo": "F",
-      "pessoaFisica": {
-        "id": 1,
-        "primeiroNome": "Eduardo",
-        "sobreNome": "Ramos",
-        "cpf": "05408328716",
-		"salario": 1200.00
+   "pessoas":[
+      {
+         "id":1,
+         "tipo":"F",
+         "pessoaFisica":{
+            "id":1,
+            "primeiroNome":"Eduardo",
+            "sobreNome":"Ramos",
+            "cpf":"05408328716",
+            "salario":1200.00
+         },
+         "enderecos":[
+            {
+               "id":10001,
+               "tipoEndereco":1,
+               "enderecoPrincipal":true,
+               "tipoLogradouro":"AVENIDA",
+               "logradouro":"PADRE ANTONIO JOSE DOS SANTOS",
+               "bairro":"BROOKLIN",
+               "numero":388,
+               "complemento":"APTO 23",
+               "cep":"04563-000",
+               "cidade":"SÃO PAULO",
+               "uf":"SP"
+            },
+            {
+               "id":10002,
+               "tipoEndereco":2,
+               "enderecoPrincipal":false,
+               "tipoLogradouro":"AVENIDA",
+               "logradouro":"DR CHUCRI ZAIDAN",
+               "bairro":"VILA CORDEIRO",
+               "numero":1170,
+               "complemento":"16° ANDAR",
+               "cep":"04794-000",
+               "cidade":"SÃO PAULO",
+               "uf":"SP"
+            }
+         ]
       },
-      "enderecos": [
-        {
-          "id": 10001,
-          "tipoEndereco": 1,
-          "enderecoPrincipal": true,
-          "tipoLogradouro": "AVENIDA",
-          "logradouro": "PADRE ANTONIO JOSE DOS SANTOS",
-          "bairro": "BROOKLIN",
-          "numero": 388,
-          "complemento": "APTO 23",
-          "cep": "04563-000",
-          "cidade": "SÃO PAULO",
-          "uf": "SP"
-        },
-        {
-          "id": 10002,
-          "tipoEndereco": 2,
-          "enderecoPrincipal": false,
-          "tipoLogradouro": "AVENIDA",
-          "logradouro": "DR CHUCRI ZAIDAN",
-          "bairro": "VILA CORDEIRO",
-          "numero": 1170,
-          "complemento": "16° ANDAR",
-          "cep": "04794-000",
-          "cidade": "SÃO PAULO",
-          "uf": "SP"
-        }
-      ]
-    },
-    {
-      "id": 2,
-      "tipo": "F",
-      "pessoaFisica": {
-        "id": 2,
-        "primeiroNome": "Debora Evelym",
-        "sobreNome": "Lapa",
-        "cpf": "05408328716",
-		"salario": 980.00
+      {
+         "id":2,
+         "tipo":"F",
+         "pessoaFisica":{
+            "id":2,
+            "primeiroNome":"Debora Evelym",
+            "sobreNome":"Lapa",
+            "cpf":"05408328716",
+            "salario":980.00
+         },
+         "enderecos":[
+            {
+               "id":10101,
+               "tipoEndereco":1,
+               "enderecoPrincipal":true,
+               "tipoLogradouro":"AVENIDA",
+               "logradouro":"PADRE ANTONIO JOSE DOS SANTOS",
+               "bairro":"BROOKLIN",
+               "numero":388,
+               "complemento":"APTO 23",
+               "cep":"04563-000",
+               "cidade":"SÃO PAULO",
+               "uf":"SP"
+            },
+            {
+               "id":10102,
+               "tipoEndereco":2,
+               "enderecoPrincipal":false,
+               "tipoLogradouro":"AVENIDA",
+               "logradouro":"DR CHUCRI ZAIDAN",
+               "bairro":"VILA CORDEIRO",
+               "numero":388,
+               "complemento":"16° ANDAR",
+               "cep":"04794-000",
+               "cidade":"SÃO PAULO",
+               "uf":"SP"
+            }
+         ]
       },
-      "enderecos": [
-        {
-          "id": 10101,
-          "tipoEndereco": 1,
-          "enderecoPrincipal": true,
-          "tipoLogradouro": "AVENIDA",
-          "logradouro": "PADRE ANTONIO JOSE DOS SANTOS",
-          "bairro": "BROOKLIN",
-          "numero": 388,
-          "complemento": "APTO 23",
-          "cep": "04563-000",
-          "cidade":"SÃO PAULO",
-          "uf": "SP"
-        },
-        {
-          "id": 10102,
-          "tipoEndereco": 2,
-          "enderecoPrincipal": false,
-          "tipoLogradouro": "AVENIDA",
-          "logradouro": "DR CHUCRI ZAIDAN",
-          "bairro": "VILA CORDEIRO",
-          "numero": 388,
-          "complemento": "16° ANDAR",
-          "cep": "04794-000",
-          "cidade":"SÃO PAULO",
-          "uf": "SP"
-        }
-      ]
-    }
-  ],
-  "empresas": [
-    {
-      "id": 1,
-      "tipo": "J",
-      "pessoaJuridica": {
-        "cnpj": "19980092000141",
-        "razaoSocial": "MULTI SERVICE SUPERVISAO DE CONTROLE INTERNO ADMINISTRATIVO LTDA",
-        "nomeFantasia": "MULTI SERVICE"
-      },
-      "enderecoComercial": {
-        "id": 11002,
-          "tipoEndereco": 1,
-          "enderecoPrincipal": true,
-          "tipoLogradouro": "RUA",
-          "logradouro": "PADRE SABOIA DE MEDEIROS",
-          "bairro": "REALENGO",
-          "numero": 126,
-          "complemento": "",
-          "cep": "21750-430",
-          "cidade":"RIO DE JANEIRO",
-          "uf": "RJ"
-      },
-      "enderecoCobranca": {
-        "id": 11002,
-          "tipoEndereco": 1,
-          "enderecoPrincipal": true,
-          "tipoLogradouro": "RUA",
-          "logradouro": "PADRE SABOIA DE MEDEIROS",
-          "bairro": "REALENGO",
-          "numero": 126,
-          "complemento": "",
-          "cep": "21750-430",
-          "cidade":"RIO DE JANEIRO",
-          "uf": "RJ"
+      {
+         "id":2,
+         "tipo":"F",
+         "pessoaFisica":{
+            "id":2,
+            "primeiroNome":"Danielly",
+            "sobreNome":"Lapa",
+            "cpf":"05408328716",
+            "salario":3980.00
+         },
+         "enderecos":[
+            {
+               "id":10101,
+               "tipoEndereco":1,
+               "enderecoPrincipal":true,
+               "tipoLogradouro":"AVENIDA",
+               "logradouro":"PADRE ANTONIO JOSE DOS SANTOS",
+               "bairro":"BROOKLIN",
+               "numero":388,
+               "complemento":"APTO 23",
+               "cep":"04563-000",
+               "cidade":"SÃO PAULO",
+               "uf":"SP"
+            },
+            {
+               "id":10102,
+               "tipoEndereco":2,
+               "enderecoPrincipal":false,
+               "tipoLogradouro":"AVENIDA",
+               "logradouro":"DR CHUCRI ZAIDAN",
+               "bairro":"VILA CORDEIRO",
+               "numero":388,
+               "complemento":"16° ANDAR",
+               "cep":"04794-000",
+               "cidade":"SÃO PAULO",
+               "uf":"SP"
+            }
+         ]
       }
-    }
-  ]
+   ],
+   "empresas":[
+      {
+         "id":1,
+         "tipo":"J",
+         "pessoaJuridica":{
+            "cnpj":"19980092000141",
+            "razaoSocial":"MULTI SERVICE SUPERVISAO DE CONTROLE INTERNO ADMINISTRATIVO LTDA",
+            "nomeFantasia":"MULTI SERVICE"
+         },
+         "enderecoComercial":{
+            "id":11002,
+            "tipoEndereco":1,
+            "enderecoPrincipal":true,
+            "tipoLogradouro":"RUA",
+            "logradouro":"PADRE SABOIA DE MEDEIROS",
+            "bairro":"REALENGO",
+            "numero":126,
+            "complemento":"",
+            "cep":"21750-430",
+            "cidade":"RIO DE JANEIRO",
+            "uf":"RJ"
+         },
+         "enderecoCobranca":{
+            "id":11002,
+            "tipoEndereco":1,
+            "enderecoPrincipal":true,
+            "tipoLogradouro":"RUA",
+            "logradouro":"PADRE SABOIA DE MEDEIROS",
+            "bairro":"REALENGO",
+            "numero":126,
+            "complemento":"",
+            "cep":"21750-430",
+            "cidade":"RIO DE JANEIRO",
+            "uf":"RJ"
+         }
+      }
+   ]
 }
